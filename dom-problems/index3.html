@@ -1,0 +1,26 @@
+<!--
+Problem 4: Create an HTML page with a dropdown list with three items in it, 
+then write a JavaScript function that displays the number of items and displays the item in the list when someone selects something from the dropdown.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 3</title>
+</head>
+<body>
+    <p class="race-list"> Race LeaderBoard </p>
+        <select id="leaderboard" onchange="getleaderBoard()">
+             <option value="first">Tyler</option>
+             <option value="second">Aya</option>
+             <option value="third">Mari</option>
+    </select>
+    
+    <p id="p1"></p>
+</body>
+
+<script src="dom-prob3.js"></script>
+</html>
