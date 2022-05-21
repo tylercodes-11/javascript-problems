@@ -2,4 +2,6 @@
 
 
 // method returns title element and styles its background color red
+const changeColor = () =>{
 document.getElementById('title').style.backgroundColor = "red";
+}
