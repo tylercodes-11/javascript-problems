@@ -14,7 +14,7 @@ const giftArray = ['diapers', 'wipes', 'clothes', 'bassinet', 'stroller', 'pacif
 const getItems = function (array, num) {
     
     if (array === null || num === null) // check if it is a valid array
-        return "Your input needs to be 'array', 'number'), please try again.";
+        return "Your input needs to be ('array', 'number'), please try again.";
 
     if (num < 0) // for numbers greater than 0 only 
         return 'Please enter in a number that is greater than 0.'
