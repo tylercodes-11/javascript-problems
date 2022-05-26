@@ -5,8 +5,7 @@ Define a function that takes in an array of numbers/integers and returns the sor
 const myArray = [-3,8,7,6,5,-4,3,2,1];
 //sort numbers in ascending order 
 function sortNumbers (arr){
-return myArray.sort(function(a, b){return a - b});
-
+    return myArray.sort(function(a, b){return a - b});
 }
 
 console.log(sortNumbers(myArray));
