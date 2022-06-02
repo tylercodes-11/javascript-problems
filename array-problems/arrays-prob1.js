@@ -22,7 +22,7 @@ const getItems = function (array, num) {
     if (num > array.length) // for numbers greater than array length
         return 'We only have ' + array.length + " items. Please try again.";
 
-    return array.slice(0, num);
+    return array.slice(0, num); //return copy array with number of elements from giftArray
 }
 
 console.log(getItems(giftArray, 2)); // testing to return first 2 elements
